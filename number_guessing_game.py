@@ -49,6 +49,8 @@ while True:
     1. Easy (10 chances)
     2. Medium (5 chances)
     3. Hard (3 chances)
+    
+    4. Exit
     """)
 
     numbers = [x for x in range(1, 101)]
@@ -67,3 +69,6 @@ while True:
 
         elif choice == 3:
             game_mode("Hard", 3, random_number)
+
+        elif choice == 4:
+            break
